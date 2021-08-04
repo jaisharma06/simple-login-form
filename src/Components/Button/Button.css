@@ -1,0 +1,18 @@
+.button__item{
+    border-radius: 20px;
+    height:40px;
+    padding: 10px 12px;
+    text-align: center;
+    border: none;
+    box-shadow: 2px 3px #cfcdcd;
+    transition:all 0.2s;
+    color:white;
+    font-size:15px;
+    font-weight: bold;
+    letter-spacing: 1.3px;
+}
+
+.button__item:active{
+    box-shadow: none;
+    transition:all 0.2s;
+}

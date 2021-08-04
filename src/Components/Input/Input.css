@@ -1,0 +1,37 @@
+.input {
+  width: 100%;
+  display: flex;
+  gap: 10px;
+  border-bottom: 1px solid lightgray;
+  transition: all 0.5s;
+}
+
+.input:focus-within{
+    border-bottom-color: #04a1b8;
+}
+
+.input__field {
+  border: none;
+  padding: 10px 0;
+  width: 100%;
+  transition: all 0.5s;
+  font-weight: 100;
+  font-size: 15px;
+  letter-spacing: 1.2px;
+  caret-color: #04a1b8;
+}
+
+.input__field::placeholder {
+  font-size: 15px;
+  letter-spacing: 1.2px;
+}
+
+.input__field:focus,
+select:focus {
+  outline: none;
+}
+
+.input__icon {
+  color: #d6d6d6;
+  margin-top: 10px;
+}
